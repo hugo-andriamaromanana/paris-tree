@@ -1,6 +1,7 @@
 Step 1 : Merge 
 - type_emplacement has only one unique values, so it will be dropped
-- We could merge the two features geo_points into one tuple & the two mesurements features into one tuple
+- (We could merge the two features geo_points into one tuple & the two mesurements features into one tuple)
+- In fact we can't, because Power BI don't accept tuple type, so it will be useless for now
 
 Step 2 : Fill nulls
 - We will rename with comple words "stade_developpement" and fill null with "Inconnu"
