@@ -5,6 +5,7 @@ __pycache__/
 data.csv
 # C extensions
 *.so
+keys.py
 
 # Distribution / packaging
 .Python
